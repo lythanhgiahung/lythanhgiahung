@@ -1,0 +1,52 @@
+.main{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    background-color: white;
+    border-radius: 25px ;
+    width: 1000px;
+}
+img.free{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    width: 450px;
+    border-radius: 25px;
+}
+.address{
+    position: relative;
+    left: 15px;
+}
+.address ul{
+    padding: 15px 15px;
+    list-style: none;
+    display: flex;
+}
+.address ul li a{
+    padding: 0px 5px;
+    color: black;
+}
+.address ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+.form{
+    position: relative;
+    left: 5px;
+    padding: 15px;
+}
+.element{
+    padding: 10px;
+}
+p.element{
+    font-size: 20px;
+}
+.form img{
+    position: relative; left: 50px;
+}
+.form ul{
+    list-style: none;
+}
+a.element{
+    color: blue;
+}

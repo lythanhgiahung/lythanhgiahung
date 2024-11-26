@@ -1,0 +1,188 @@
+body{
+    background-color: pink;
+}
+.containner{
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 1250px;
+    height: 600px;
+    border-radius: 25px;
+}
+.containner img{
+    position: absolute;
+    height: 500px;
+    top: 45px;
+    left: 150px;
+    border-radius: 25px;
+}
+.containner .form{
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    border: 0.5px solid black;
+    top: 50px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+}
+.field1 {
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+.field1 input{
+    color: black;
+    background: white;
+    left: 30px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 0.625rem;
+}
+.field1 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: white;
+    padding-inline: 0.25rem;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms,
+                background-color 250ms,
+                border-color 250ms;
+}
+.field1:focus-within label, .field1:not(:has(:placeholder-shown)) label{
+    translate: 0.625rem -1rem;
+    border-color: #030104;
+}
+.field1::placeholder{
+    color: transparent;
+}
+
+
+.field2 {
+    position: relative;
+    left: 150px;
+    top: 80px;
+}
+.field2 input{
+    color: black;
+    background: white;
+    left: 30px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 0.625rem;
+}
+.field2 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: white;
+    padding-inline: 0.25rem;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms,
+                background-color 250ms,
+                border-color 250ms;
+}
+.field2:focus-within label, .field2:not(:has(:placeholder-shown)) label{
+    translate: 0.625rem -1rem;
+    border-color: #030104;
+}
+.field2::placeholder{
+    color: transparent;
+}
+
+
+.field3 {
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+.field3 input{
+    color: black;
+    background: none;
+    left: 30px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 0.625rem;
+}
+.field3 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: white;
+    padding-inline: 0.25rem;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms,
+                background-color 250ms,
+                border-color 250ms;
+}
+.field3:focus-within label, .field3:not(:has(:placeholder-shown)) label{
+    translate: 0.625rem -1rem;
+    border-color: #030104;
+}
+.field3::placeholder{
+    color: transparent;
+}
+
+
+.field4 {
+    position: relative;
+    left: 150px;
+    top: 160px;
+}
+.field4 input{
+    color: black;
+    background: none;
+    left: 30px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 0.625rem;
+}
+.field4 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: white;
+    padding-inline: 0.25rem;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms,
+                background-color 250ms,
+                border-color 250ms;
+}
+.field4:focus-within label, .field4:not(:has(:placeholder-shown)) label{
+    translate: 0.625rem -1rem;
+    border-color: #030104;
+}
+.field4::placeholder{
+    color: transparent;
+}
+.form button{
+    position: absolute;
+    bottom: 60px;
+    right: 130px;
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+}
+.form a{
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    color: black;
+}
+.form a:hover{
+    cursor: pointer;
+}

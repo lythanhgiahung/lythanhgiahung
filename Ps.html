@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>Prefix Sum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Lstyle.css">
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <img class="free" src="https://i.pinimg.com/474x/24/25/07/242507dc3c2f66d7b027f6ce326f3d8a.jpg"/>
+    <div class="main">
+        <div class="address">
+            <ul>
+                <li><a href="Index.html"><ion-icon name="home-outline"></ion-icon>/</a><li>
+                <li><a href="Basic.html">Basic/</a></li>
+                <li><a>Prefix Sum</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <h1 class="element">PREFIX SUM</h1>
+            <p class="element">Writer: <a href="#">Arya</a></p>
+            <h2 class="element">INTRODUCTION</h2>
+            <p class="element">The prefix sum is a fundamental concept in computer science, particularly in array and algorithm design. It involves creating an auxiliary array where each element at index i represents the cumulative sum of the elements of the original array from the start up to index i. This technique is widely used to optimize queries about ranges in arrays, such as finding the sum of elements between two indices.</p>
+            
+            <h2 class="element">HOW IT WORKS</h2>
+            <p class="element">The first element of the prefix sum array is the same as the first element of the original array: prefix[0]=arr[0]
+                <br>For each subsequent index i, the prefix sum is computed as: prefix[i]=prefix[i-1]+arr[i]
+            </p>
+            <img src="https://i.imgur.com/lzBYJ89.gif" style="width: 800px;"/>
+            <img src="image/Prefix.png" alt="" class="element" style="width: 800px;">
+            <h2 class="element">KEY APPLICATIONS</h2>
+            <p class="element">Range Sum Queries: The sum of elements between indices l anh r can computed as: sum(l,r)=prefix[r]-prefix[l-1] (l>0) 
+                <br>Efficient Updates: While prefix sums are static by nature, they can inspire structures like Fenwick Trees or Segment Trees for dynamic updates.
+                <br>Problem Solving:
+                <br>- Subarray sum problems
+                <br>- Sliding window optimizations
+                <br>- Algorithms involving cumulative properties (e.g., frequency counts)
+            </p>
+
+            <h2 class="element">CONCLUSIONS</h2>
+            <p class="element">Prefix sums are a powerful tool for optimizing queries and understanding array properties. They serve as a stepping stone for more advanced data structures and algorithms, making them a must-know concept in competitive programming and algorithm design.</p>
+
+            <h2 class="element">PROBLEMSET</h2>
+            <a href="#" class="element">NULL</a>
+            <h2 class="element">OTHER</h2>
+            <ul>
+                <li><a href="https://marisaoj.com/problem/59" class="element">Prefix Sum</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
