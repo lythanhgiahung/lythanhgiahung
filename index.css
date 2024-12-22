@@ -1,0 +1,78 @@
+section .containner h2{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+    font-size: 40px;
+}
+section .containner .slider{
+    width: 1250px;
+    max-width: 1250px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    left: 0;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+section .containner .slider .list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+}
+section .containner .slider .list .item img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: fill;
+}
+section .containner .btns{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+section .containner .btns button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    color: #272222;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+section .containner .dots{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+section .containner .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+section .containner .dots li.active{
+    width: 30px;
+}

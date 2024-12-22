@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Sắp xếp</title>
+        <link rel="stylesheet" type="text/css" href="main2.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <div class="containner">
+            <ul>
+                <li><a href="index.html"><ion-icon name="home-outline"></ion-icon></a></li>
+                <li><a>/</a></li>
+                <li><a href="basic.html">Cơ Bản</a></li>
+                <li><a>/</a></li>
+                <li><a>Sắp xếp</a></li>
+            </ul>
+            <h1>SẮP XẾP</h1>
+            <p>Trong cuộc sống hằng ngày, có một số việc cần chúng ta sắp xếp nhưng lại sắp xếp danh sách học sinh, sắp xếp số liệu. Trong lập
+            trình cũng vậy, có những vấn đề cần chúng ta sắp xếp dữ liệu để thuận tiện cho việc tính toán, truy xuất. Các ngôn ngữ lập trình bậc cao
+            ngày nay như Python,C++,... đều có hàm sort giúp ta sắp xếp dữ liệu. Còn các bạn mới bắt đầu lập trình học Scratch hay Pascal thì chưa có
+            hỗ trợ hàm sort, điều này bắt buộc ta phải viết đoạn chương trình thực hiện công việc sắp xếp. Trong bài viết này tôi muốn giới thiệu hai 
+            cách giải thuật sắp xếp mà tôi nghĩ là phổ biến đó là Buble Sort (Sắp xếp nổi bọt) và Quick Sort (Sắp xếp nhanh).
+            </p>
+            <h2>Buble Sort</h2>
+            <p>Sắp xếp nổi bọt có thể coi là cách sắp xếp đơn giản nhất (vì lúc bắt đầu lập trình tôi sắp xếp bằng giải thuật này). Chúng ta duyệt qua
+            các phần tử trong mảng, kiểm tra nếu phần tử sau nhỏ hơn phần tử trước thì ta thay đổi vị trí của chúng. (Mô phỏng lại thuật toán bằng Python)
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="minh họa sắp xếp nổi bọt">
+            <img src="img/Buble Sort.png" alt="Code minh họa">
+            <h2>Quick Sort</h2>
+            <p>Sắp xếp nhanh còn được gọi là sắp xếp kiểu phân chia (part sort) là một thuật toán sắp xếp phát triển bởi C.A.R. Hoarec sắp thành hai danh sách con. Sắp xếp nhanh chia danh sách thành hai danh sách bằng cách so sánh từng phần tử của danh sách với một phần tử được chọn được gọi là phần tử chốt. 
+            Những phần tử nhỏ hơn hoặc bằng phần tử chốt được đưa về phía trước và nằm trong danh sách con thứ nhất, các phần tử lớn hơn chốt được đưa về phía sau và thuộc danh sách đứng sau. 
+            Cứ tiếp tục chia như vậy tới khi các danh sách con đều có độ dài bằng 1 (Code mẫu Python).</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif" alt="minh học Quick Sort">
+            <img src="img/Quick Sort.png" alt="Code minh họa">
+        </div>
+        <div class="tag">
+            <h1>LUYỆN TẬP</h1>
+        </div>
+    </body>
+</html>
